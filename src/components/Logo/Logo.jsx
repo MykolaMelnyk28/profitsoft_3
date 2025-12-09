@@ -45,7 +45,7 @@ function Logo({
       {!compact && (
         <div className={classes.label}>
           <strong>
-            UI app. Base
+            Book app 
           </strong>
         </div>
       )}
