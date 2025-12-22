@@ -25,6 +25,9 @@ import Header from '../components/Header';
 import IntlProvider from '../components/IntlProvider';
 import MissedPage from '../components/MissedPage';
 import SearchParamsConfigurator from '../components/SearchParamsConfigurator';
+import BookDetails from 'pageProviders/BookDetails';
+import { ToastContainer } from 'react-toastify';
+import BookNew from 'pageProviders/BookNew';
 
 function App() {
   const dispatch = useDispatch();
@@ -63,6 +66,7 @@ function App() {
               * initializing) */}
             {state.componentDidMount && (
               <IntlProvider>
+                <ToastContainer />
                 <Header onLogout={() => dispatch(actionsUser.fetchSignOut())} />
                 {isFetchingUser && (
                   <PageContainer>
@@ -120,6 +124,18 @@ function App() {
                         />
                       )}
                       path="*"
+                    />
+                    <Route 
+                      element={(
+                        <BookDetails/>
+                      )}
+                      path={`/details/:id`}
+                    />
+                    <Route 
+                      element={(
+                        <BookNew/>
+                      )}
+                      path={`/new`}
                     />
                   </Routes>
                 )}
