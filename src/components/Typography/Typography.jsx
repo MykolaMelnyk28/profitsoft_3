@@ -37,6 +37,7 @@ const Typography = ({
   noWrap = false,
   variant = variants.default,
   wordBreak = 'normal',
+  className,
 }) => {
   const { theme } = useTheme();
   return (
@@ -52,6 +53,7 @@ const Typography = ({
           : theme.typography.color[color] || color,
         wordBreak,
       }}
+      className={className}
     >
       {children}
     </TypographyMUI>

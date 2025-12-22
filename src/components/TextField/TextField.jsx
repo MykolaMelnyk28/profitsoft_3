@@ -32,23 +32,20 @@ const TextField = ({
   onSelect,
   required = false,
   value,
+  InputProps,
+  inputProps,
+  name,
 }) => {
   const { theme } = useTheme();
   const [ state, setState ] = useState({
     isFocused: false,
   });
-  const isEmptyValue = !value.length;
   const labelColor = useMemo(() => {
-    let color;
-    if (isError && !isEmptyValue) {
-      color = theme.colors.text.error;
-    } else if (state.isFocused || !isEmptyValue) {
-      color = theme.input.color[colorVariant].text.secondary;
-    } else {
-      color = theme.input.color[colorVariant].placeholder;
-    }
-    return color;
-  }, [isError, isEmptyValue, theme, state.isFocused]);
+    const isEmptyValue = !value?.toString().length;
+    if (isError && !isEmptyValue) return theme.colors.text.error;
+    if (state.isFocused || !isEmptyValue) return theme.input.color.primary.text.secondary;
+    return theme.input.color.primary.placeholder;
+  }, [isError, value, state.isFocused, theme]);
 
   return (
     <TextFieldMui
@@ -58,6 +55,7 @@ const TextField = ({
       fullWidth
       helperText={helperText}
       InputProps={{
+        ...InputProps,
         endAdornment: AdornmentEnd && (
           <InputAdornmentMui position="end">
             {AdornmentEnd}
@@ -113,6 +111,8 @@ const TextField = ({
       type={inputType}
       value={value}
       variant="standard"
+      inputProps={inputProps}
+      name={name}
     />
   );
 };

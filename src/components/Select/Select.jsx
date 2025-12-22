@@ -1,5 +1,6 @@
 import React from 'react';
 import SelectMui from '@mui/material/Select';
+import useTheme from 'misc/hooks/useTheme';
 
 const variants = {
   standard: 'standard',
@@ -9,6 +10,11 @@ const variants = {
 const sizes = {
   medium: 'medium',
   small: 'small',
+};
+
+const colorVariants = {
+  header: 'header',
+  primary: 'primary',
 };
 
 const Select = ({
@@ -23,7 +29,9 @@ const Select = ({
   size = sizes.medium,
   value,
   variant = variants.standard,
+  colorVariant = colorVariants.primary,
 }) => {
+  const { theme } = useTheme();
   return (
     <SelectMui
       disabled={disabled}
@@ -41,6 +49,16 @@ const Select = ({
         '.MuiSelect-select': {
           alignItems: 'center',
           display: 'flex',
+          background: disabled && 'rgba(0, 0, 0, 0.05) !important',
+          borderBottom: `1px solid ${theme.input.color[colorVariant].border}`,
+          color: theme.input.color[colorVariant].text.primary,
+          opacity: disabled && '0.4',
+          '&:hover': !disabled
+            ? {
+              marginBottom: '-0.5px !important',
+              borderBottom: `2px solid ${theme.input.color[colorVariant].border}`,
+            }
+            : {},
         },
       }}
       size={size}

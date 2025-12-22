@@ -23,7 +23,8 @@ const getClasses = createUseStyles((theme) => ({
   contentContainer: {
     display: 'flex',
     overflowX: 'auto',
-    justifyContent: 'center',
+    flexDirection: 'column',
+    alignItems: 'center',
     width: '100%',
   },
   fullWidth: {
