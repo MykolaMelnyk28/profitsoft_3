@@ -1,3 +1,27 @@
 {
-  "title": "Це перша сторінка, яку побачать відвідувачі вашого сайту, розмістіть тут усю необхідну для них інформацію"
+    "page.metadata.title": "Список книг",
+    "title": "Це перша сторінка, яку побачать відвідувачі вашого сайту, розмістіть тут усю необхідну для них інформацію",
+    "error.INTERNAL_SERVER_ERROR": "Сталась внутрішня помилка. Будь ласка, спробуйте пізніше.",
+    "page.list.empty": "Список порожній",
+    "page.filter.sortOptions[0].name": "Назва",
+    "page.filter.sortOptions[1].name": "Автор",
+    "page.filter.sortOptions[2].name": "Рік публікації",
+    "page.filter.sortOptions[3].name": "Сторінки",
+    "page.list.filter.authors.label": "Автори",
+    "page.list.filter.genres.label": "Жанри",
+    "page.list.filter.yearPublishedRange.minLabel": "Мін рік публікації",
+    "page.list.filter.yearPublishedRange.maxLabel": "Макс рік публікації",
+    "page.list.filter.pagesRange.minLabel": "Мін кількість сторінок",
+    "page.list.filter.pagesRange.maxLabel": "Макс кількість сторінок",
+    "page.list.filter.sortSelect.label": "Сортувати за",
+    "page.list.filter.sortSelect.isDescending.label": "За спаданням",
+    "page.list.filter.resetButton.title": "Скинути",
+    "page.list.filter.applyButton.title": "Застосувати",
+    "page.list.createNewButton.label": "Створити книгу",
+    "page.list.deleteDialog.message": "Ви впевнені що хочете видалити цю книгу?",
+    "page.list.deleteDialog.okButton": "Так",
+    "page.list.deleteDialog.cancellButton": "Ні",
+    "page.list.deleteItem.sucessMessage": "Успішно видалено",
+    "page.list.pagination.showMore.title": "Показати більше",
+    "page.list.filter.searchInput.label": "Пошук"
 }

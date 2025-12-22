@@ -1,15 +1,20 @@
 import { useIntl } from 'react-intl';
-import React from 'react';
-import Typography from 'components/Typography';
+import BookList from '../components/BookList';
+import { useEffect } from 'react';
+import useLocationSearch from 'misc/hooks/useLocationSearch';
 
 function Default() {
-  const { formatMessage } = useIntl();
+    const { formatMessage } = useIntl();
+    
+    const {lang} = useLocationSearch();
 
-  return (
-    <Typography>
-      {formatMessage({ id: 'title' })}
-    </Typography>
-  );
+    useEffect(() => {
+        document.title = formatMessage({ id: 'page.metadata.title' });
+    }, [lang]);
+    
+    return (
+        <BookList />
+    );
 }
 
 export default Default;

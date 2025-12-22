@@ -1,0 +1,45 @@
+.filter_container {
+    border: 1px solid black;
+}
+
+.down_filter_container {
+    display: flex;
+    gap: 10px;
+}
+
+.sort_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.apply_container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+
+.book_list_container {
+    
+}
+
+.book_list {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+.book_item {
+
+}
+
+.book_item_title {
+    font-size: 22px;
+}
+
+.pagination_container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
