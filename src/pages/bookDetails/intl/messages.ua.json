@@ -1,0 +1,18 @@
+{
+    "page.book.details.missingDescription": "Опису не має",
+    "page.book.details.characteristics.label": "Характеристики",
+    "bookForm.updateButton.title": "Редагувати",
+    "bookForm.cancellButton.title": "Скасувати",
+    "bookForm.fields.title.label": "Назва",
+    "bookForm.fields.description.label": "Опис",
+    "bookForm.fields.author.label": "Автор",
+    "bookForm.fields.genres.label": "Жанри",
+    "bookForm.fields.yearPublished.label": "Рік публікації",
+    "bookForm.fields.pages.label": "Сторінки",
+    "page.list.updateItem.sucessMessage": "Успішно оновлено",
+    "error.validation.book.duplicateTitleAuthor": "Книга з переданими назвою і автором вже існує. Ведіть іншу назву або змініть автора.",
+    "error.validation": "Помилка валідації",
+    "error.validation.field.required": "Обов'язкове поле",
+    "error.validation.number.positive": "Число не може бути негативним",
+    "error.validation.number.outOfRange": "Число повинно бути в діапазоні від {min} до {max} включно."
+}

@@ -1,0 +1,18 @@
+{
+    "page.book.details.missingDescription": "No description",
+    "page.book.details.characteristics.label": "Characteristics",
+    "bookForm.updateButton.title": "Update",
+    "bookForm.cancellButton.title": "Cancell",
+    "bookForm.fields.title.label": "Title",
+    "bookForm.fields.description.label": "Description",
+    "bookForm.fields.author.label": "Author",
+    "bookForm.fields.genres.label": "Genres",
+    "bookForm.fields.yearPublished.label": "Year published",
+    "bookForm.fields.pages.label": "Pages",
+    "page.list.updateItem.sucessMessage": "Successfully updated",
+    "error.validation.book.duplicateTitleAuthor": "A book with the given title and author already exists. Please enter a different title or change the author.",
+    "error.validation": "Validation error",
+    "error.validation.field.required": "Required field",
+    "error.validation.number.positive": "The number can't be negative",
+    "error.validation.number.outOfRange": "The number must be in the range from {min} to {max} inclusive."
+}
