@@ -1,0 +1,17 @@
+{
+    "page.metadata.title": "Створити нову книгу",
+    "bookForm.createButton.title": "Створити",
+    "bookForm.cancellButton.title": "Скасувати",
+    "bookForm.fields.title.label": "Назва",
+    "bookForm.fields.description.label": "Опис",
+    "bookForm.fields.author.label": "Автор",
+    "bookForm.fields.genres.label": "Жанри",
+    "bookForm.fields.yearPublished.label": "Рік публікації",
+    "bookForm.fields.pages.label": "Сторінки",
+    "page.list.createItem.sucessMessage": "Успішно створено",
+    "error.validation.book.duplicateTitleAuthor": "Книга з переданими назвою і автором вже існує. Ведіть іншу назву або змініть автора.",
+    "error.validation": "Помилка валідації",
+    "error.validation.field.required": "Обов'язкове поле",
+    "error.validation.number.positive": "Число не може бути негативним",
+    "error.validation.number.outOfRange": "Число повинно бути в діапазоні від {min} до {max} включно."
+}
