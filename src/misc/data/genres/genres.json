@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Crime/Detective"
+  },
+  {
+    "id": 2,
+    "name": "Fairy tale"
+  },
+  {
+    "id": 3,
+    "name": "Horror"
+  },
+  {
+    "id": 4,
+    "name": "Fiction narrative"
+  },
+  {
+    "id": 5,
+    "name": "Fiction in verse"
+  },
+  {
+    "id": 6,
+    "name": "Classic"
+  },
+  {
+    "id": 7,
+    "name": "Short story"
+  },
+  {
+    "id": 8,
+    "name": "Suspense/Thriller"
+  },
+  {
+    "id": 9,
+    "name": "Reference book"
+  },
+  {
+    "id": 10,
+    "name": "Textbook"
+  },
+  {
+    "id": 11,
+    "name": "Mythopoeia"
+  },
+  {
+    "id": 12,
+    "name": "Essay"
+  },
+  {
+    "id": 13,
+    "name": "Mystery"
+  },
+  {
+    "id": 14,
+    "name": "Legend"
+  },
+  {
+    "id": 15,
+    "name": "Fantasy"
+  },
+  {
+    "id": 16,
+    "name": "Mythology"
+  },
+  {
+    "id": 17,
+    "name": "Science fiction"
+  },
+  {
+    "id": 18,
+    "name": "Narrative nonfiction"
+  },
+  {
+    "id": 19,
+    "name": "Metafiction"
+  },
+  {
+    "id": 20,
+    "name": "Comic/Graphic Novel"
+  }
+]
