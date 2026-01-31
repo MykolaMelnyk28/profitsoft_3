@@ -4,7 +4,7 @@ import {
     REQUEST_AUTHORS,
     SET_AUTHOR_ERRORS
 } from 'app/constants/authorActionTypes';
-import authorService from 'app/services/author';
+import authorService from 'app/services/real/author';
 
 const requestAuthors = (filter) => ({
     type: REQUEST_AUTHORS,
@@ -47,7 +47,7 @@ const fetchAuthorPage = (filter) => (dispatch) => {
     dispatch(requestAuthors(filter));
 
     return authorService.searchAuthorsByFilter(filter)
-        .then(response => dispatch(receiveAuthors(response)))
+        .then(response => dispatch(receiveAuthors(response.data)))
         .catch(error => handleError(error, dispatch));
 };
 

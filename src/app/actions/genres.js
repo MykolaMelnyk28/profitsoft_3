@@ -4,7 +4,7 @@ import {
     REQUEST_GENRES,
     SET_GENRE_ERRORS
 } from 'app/constants/genreActionTypes';
-import genreService from 'app/services/genre';
+import genreService from 'app/services/real/genre';
 
 const requestGenres = (filter) => ({
     type: REQUEST_GENRES,
@@ -50,7 +50,7 @@ const handleError = (error, dispatch) => {
 const fetchGenrePage = (filter) => (dispatch) => {
     dispatch(requestGenres(filter));
     return genreService.searchGenresByFilter(filter)
-        .then(response => dispatch(receiveGenres(response)))
+        .then(response => dispatch(receiveGenres(response.data)))
         .catch(error => handleError(error, dispatch));
 };
 

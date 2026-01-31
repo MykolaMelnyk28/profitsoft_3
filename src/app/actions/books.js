@@ -13,7 +13,7 @@ import {
     SET_BOOKS_STATUS,
     SUCCESS_CREATE_BOOK,
 } from 'app/constants/bookActionTypes';
-import bookService from 'app/services/book';
+import bookService from 'app/services/real/book';
 import { defaultBookFilter } from 'constants/filters';
 import uiActions from './ui';
 import { AlreadyExistsError, NotFoundError } from 'misc/data/common';
@@ -113,14 +113,14 @@ const handleError = (error, dispatch) => {
 const fetchBookPage = (filter = defaultBookFilter) => (dispatch) => {
     dispatch(requestBooks(filter));
     return bookService.searchBooksByFilter(filter)
-        .then(response => dispatch(receiveBooks(response)))
+        .then(response => dispatch(receiveBooks(response.data)))
         .catch(error => handleError(error, dispatch));
 };
 
 const fetchBookDetailsById = (id) => (dispatch) => {
     dispatch(requestBookDetails(id));
     return bookService.getBookById(id)
-        .then(response => dispatch(receiveBookDetails(response)))
+        .then(response => dispatch(receiveBookDetails(response.data)))
         .catch(error => handleError(error, dispatch));
 };
 
@@ -136,7 +136,7 @@ const deleteBookById = (id) => (dispatch, getState) => {
 const createBook = (data) => (dispatch) => {
     dispatch(requestCreateBook(data));
     return bookService.createBook(data)
-        .then(response => dispatch(successCreateBook(response)))
+        .then(response => dispatch(successCreateBook(response.data)))
         .then(data => dispatch(uiActions.showSuccessToast('page.list.createItem.sucessMessage', {})))
         .catch(error => {
             console.log("error", error);
@@ -147,7 +147,7 @@ const createBook = (data) => (dispatch) => {
 const updateBookById = (id, data) => async (dispatch) => {
     dispatch(requestUpdateBook(id, data));
     return bookService.updateBookById(id, data)
-        .then(response => dispatch(successUpdateBook(response)))
+        .then(response => dispatch(successUpdateBook(response.data)))
         .then(data => dispatch(uiActions.showSuccessToast('page.list.updateItem.sucessMessage', {})))
         .catch(error => handleError(error, dispatch));
 };
