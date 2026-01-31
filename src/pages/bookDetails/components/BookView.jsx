@@ -1,10 +1,13 @@
 import Button from "components/Button";
 import Typography from "components/Typography";
 import { useMemo } from "react";
-import EditIcon from '@mui/icons-material/Edit';
+import EditIcon from 'components/Edit';
 import CardContent from "components/CardContent";
 import Property from "app/components/Property";
-import { CardHeader, Divider, Paper, Stack } from "@mui/material";
+import Stack from "components/Stack";
+import Paper from "components/Paper";
+import Divider from "components/Divider";
+import CardHeader from 'components/CardHeader';
 import { useIntl } from "react-intl";
 
 function BookView({

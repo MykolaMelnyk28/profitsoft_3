@@ -1,5 +1,5 @@
 import Button from "components/Button";
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowBackIcon from 'components/ArrowBack';
 import Stack from "components/Stack";
 import Divider from "components/Divider";
 import { useLocation, useNavigate } from "react-router-dom";

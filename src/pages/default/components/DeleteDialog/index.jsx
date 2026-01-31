@@ -1,4 +1,5 @@
-import { DialogActions, DialogTitle } from "@mui/material";
+import DialogActions from 'components/DialogActions';
+import DialogTitle from 'components/DialogTitle';
 import Button from "components/Button";
 import Dialog from "components/Dialog";
 import { useCallback, useEffect } from "react";

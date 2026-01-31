@@ -1,6 +1,6 @@
 
 import SelectSort from "./SelectSort";
-import { Stack } from '@mui/material';
+import Stack from 'components/Stack';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import Button from 'components/Button';
 import RangeInput from './RangeInput';

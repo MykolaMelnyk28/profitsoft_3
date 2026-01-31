@@ -1,4 +1,6 @@
-import { Divider, Stack, Typography } from "@mui/material";
+import Typography from "components/Typography";
+import Stack from "components/Stack";
+import Divider from "components/Divider";
 import { useCallback, useEffect, useMemo } from "react";
 import { useIntl } from "react-intl";
 import { useDispatch, useSelector } from "react-redux";

@@ -1,4 +1,6 @@
-import { Checkbox, FormControl, FormControlLabel, FormLabel, Stack } from "@mui/material";
+import Checkbox from 'components/Checkbox';
+import FormControlLabel from "components/FormControlLabel";
+import Stack from "components/Stack";
 import MenuItem from "components/MenuItem";
 import Select from "components/Select";
 import Typography from "components/Typography";

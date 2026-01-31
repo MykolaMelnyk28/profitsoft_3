@@ -1,15 +1,14 @@
 import Card from "components/Card";
-import CardTitle from "components/CardTitle";
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import DeleteDialog from "../DeleteDialog";
 import { useDispatch } from "react-redux";
-import actionsBooks from '../../../../app/actions/books';
 import CardContent from "components/CardContent";
 import Link from "components/Link";
-import styles from './styles.module.css';
 import Typography from "components/Typography";
-import { Button, CardHeader, Stack } from "@mui/material";
-import DeleteIcon from '@mui/icons-material/Delete';
+import Stack from "components/Stack";
+import CardHeader from "components/CardHeader";
+import Button from "components/Button";
+import DeleteIcon from 'components/Delete';
 import { useLocation } from "react-router-dom";
 
 function BookItem({ item, onDelete }) {
