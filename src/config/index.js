@@ -1,7 +1,7 @@
 const config = {
   // Services
-  API_BASE_URL: process.env.API_BASE_URL ?? '',
-  OAUTH2_GOOGLE_AUTHORIZATION_URL: process.env.OAUTH2_GOOGLE_AUTHORIZATION_URL ?? '',
+  API_BASE_URL: process.env.REACT_APP_API_BASE_URL ?? '',
+  OAUTH2_GOOGLE_AUTHORIZATION_URL: process.env.REACT_APP_OAUTH2_GOOGLE_AUTHORIZATION_URL ?? '',
   UI_URL_PREFIX: process.env.REACT_APP_UI_URL_PREFIX || '',
 };
 
