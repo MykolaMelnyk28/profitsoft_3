@@ -90,7 +90,7 @@ const handleError = (error, dispatch) => {
             messageId: 'error.validation.book.duplicateTitleAuthor',
             values: {}
         });
-    } else if (error.response) {
+    } else if (error?.response) {
         if (error.response.status === 409) {
             errors.local.push({
                 messageId: 'error.validation.book.duplicateTitleAuthor',
@@ -102,7 +102,7 @@ const handleError = (error, dispatch) => {
                 values: error.response.data || {}
             });
         }
-    } else if (error.request) {
+    } else if (error?.request) {
         errors.global.push({ messageId: 'error.INTERNAL_SERVER_ERROR', values: {} });
     } else {
         errors.global.push({ messageId: 'error.INTERNAL_SERVER_ERROR', values: { message: error.message } });

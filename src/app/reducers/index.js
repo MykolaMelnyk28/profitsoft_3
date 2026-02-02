@@ -5,7 +5,7 @@ import ui from './ui';
 import books from './books';
 import authors from './authors';
 import genres from './genres';
-
+import reviews from './reviews';
 
 export default combineReducers({
     user,
@@ -13,4 +13,5 @@ export default combineReducers({
     books,
     authors,
     genres,
+    reviews,
 });

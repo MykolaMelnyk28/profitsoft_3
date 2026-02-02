@@ -4,23 +4,23 @@ import axios from 'misc/requests';
 const { API_BASE_URL } = config;
 
 const getAuthorById = async (id) => {
-    return await axios.get(`${API_BASE_URL}/authors/${id}`, { withCredentials: true });
+    return axios.get(`${API_BASE_URL}/api/authors/${id}`);
 };
 
 const searchAuthorsByFilter = async (filter) => {
-    return await axios.post(`${API_BASE_URL}/authors/_list`, filter, { withCredentials: true });
+    return axios.post(`${API_BASE_URL}/api/authors/_list`, filter);
 };
 
 const createAuthor = async (body) => {
-    return await axios.post(`${API_BASE_URL}/authors`, body, { withCredentials: true });
+    return axios.post(`${API_BASE_URL}/api/authors`, body);
 };
 
 const updateAuthorById = async (id, body) => {
-    return await axios.put(`${API_BASE_URL}/authors/${id}`, body, { withCredentials: true });
+    return axios.put(`${API_BASE_URL}/api/authors/${id}`, body);
 };
 
 const deleteAuthorById = async (id) => {
-    return await axios.get(`${API_BASE_URL}/authors/${id}`, { withCredentials: true });
+    return axios.get(`${API_BASE_URL}/api/authors/${id}`);
 };
 
 const exports = {

@@ -9,6 +9,8 @@ import Paper from "components/Paper";
 import Divider from "components/Divider";
 import CardHeader from 'components/CardHeader';
 import { useIntl } from "react-intl";
+import ReviewSection from "./ReviewSection";
+import SecuredBox from "app/components/SecuredBox";
 
 function BookView({
     currentBook,
@@ -21,11 +23,19 @@ function BookView({
         return currentBook.genres.map(x => x.name).join(', ');
     }, [currentBook]);
 
+    const bookId = useMemo(() => currentBook.id, [currentBook?.id]);
+
     return (
         <Paper>
             <CardHeader
                 title={<Typography variant="bigTitle">{currentBook.title}</Typography>}
-                action={<Button onClick={onEditClick}><EditIcon /></Button>}
+                action={(
+                    <SecuredBox>
+                        <Button onClick={onEditClick}>
+                            <EditIcon />
+                        </Button>
+                    </SecuredBox>
+                )}
             />
             <CardContent >
                 <Stack spacing={2}>
@@ -63,6 +73,8 @@ function BookView({
                             value={genreStr}
                         />
                     </Stack>
+                    <Divider/>
+                    <ReviewSection bookId={bookId} />
                 </Stack>
             </CardContent>
         </Paper>

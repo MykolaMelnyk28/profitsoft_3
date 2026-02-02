@@ -1,8 +1,7 @@
 const config = {
   // Services
-  USERS_SERVICE: 'http://localhost:3000',
-  BOOKS_SERVICE: 'http://localhost:8080/api',
-  API_BASE_URL: 'http://localhost:8080/api',
+  API_BASE_URL: process.env.API_BASE_URL ?? '',
+  OAUTH2_GOOGLE_AUTHORIZATION_URL: process.env.OAUTH2_GOOGLE_AUTHORIZATION_URL ?? '',
   UI_URL_PREFIX: process.env.REACT_APP_UI_URL_PREFIX || '',
 };
 

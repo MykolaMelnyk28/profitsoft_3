@@ -13,6 +13,7 @@ import ShowMorePagination from "app/components/ShowMorePagination";
 import 'toastr/build/toastr.min.css';
 import Button from "components/Button";
 import Link from "components/Link";
+import SecuredBox from "app/components/SecuredBox";
 
 const PAGE_SIZE = 10;
 
@@ -105,17 +106,18 @@ function BookList() {
 
             <Divider />
 
-            <Stack
-                direction="row"
-                justifyContent="flex-start"
-            >
-                <Link href={`/new`}>
-                    <Button onClick={handleCreateClick}>
-                        {formatMessage({ id: 'page.list.createNewButton.label' })}
-                    </Button>
-                </Link>
-            </Stack>
-
+            <SecuredBox>
+                <Stack
+                    direction="row"
+                    justifyContent="flex-start"
+                >
+                    <Link href={`/new`}>
+                        <Button onClick={handleCreateClick}>
+                            {formatMessage({ id: 'page.list.createNewButton.label' })}
+                        </Button>
+                    </Link>
+                </Stack>
+            </SecuredBox>
 
             {isLoading ? (
                 <Loading />

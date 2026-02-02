@@ -10,9 +10,13 @@
     "bookForm.fields.yearPublished.label": "Year published",
     "bookForm.fields.pages.label": "Pages",
     "page.list.updateItem.sucessMessage": "Successfully updated",
+    "page.list.empty": "List is empty",
     "error.validation.book.duplicateTitleAuthor": "A book with the given title and author already exists. Please enter a different title or change the author.",
     "error.validation": "Validation error",
     "error.validation.field.required": "Required field",
     "error.validation.number.positive": "The number can't be negative",
-    "error.validation.number.outOfRange": "The number must be in the range from {min} to {max} inclusive."
+    "error.validation.number.outOfRange": "The number must be in the range from {min} to {max} inclusive.",
+    "page.book.details.reviews.title": "Reviews",
+    "page.book.details.reviews.createButton.title": "Create a review",
+    "page.book.details.reviews.textfield.helperText": "Write a review"
 }

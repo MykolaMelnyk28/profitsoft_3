@@ -23,5 +23,7 @@
     "page.list.deleteDialog.cancellButton": "Ні",
     "page.list.deleteItem.sucessMessage": "Успішно видалено",
     "page.list.pagination.showMore.title": "Показати більше",
-    "page.list.filter.searchInput.label": "Пошук"
+    "page.list.filter.searchInput.label": "Пошук",
+    "signIn.success": "Вхід здійснено успішно",
+    "signIn.fail": "Не вдалося ввійти"
 }

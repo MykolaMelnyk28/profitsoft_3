@@ -6,6 +6,7 @@ import BookDetailsForm from "../../../app/components/BookDetailsForm";
 import { Status } from "app/constants/bookActionTypes";
 import { useParams } from "react-router-dom";
 import BookView from "../components/BookView";
+import useSecuredCallback from "misc/hooks/useSecuredCallback";
 
 function BookDetails() {
     const { id } = useParams();
@@ -39,9 +40,9 @@ function BookDetails() {
     const handleEditButtonClick = () => setReadOnly(false);
     const handleCancellEdit = () => setReadOnly(true);
 
-    const handleSubmit = (updatedData) => {
+    const handleSubmit = useSecuredCallback((updatedData) => {
         dispatch(actionsBooks.updateBookById(id, updatedData));
-    };
+    });
 
     const onSuccess = () => {
         setReadOnly(true);

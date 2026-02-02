@@ -4,23 +4,23 @@ import axios from 'misc/requests';
 const { API_BASE_URL } = config;
 
 const getGenreById = async (id) => {
-    return await axios.get(`${API_BASE_URL}/genres/${id}`, { withCredentials: true });
+    return await axios.get(`${API_BASE_URL}/api/genres/${id}`);
 };
 
 const searchGenresByFilter = async (filter) => {
-    return await axios.post(`${API_BASE_URL}/genres/_list`, filter, { withCredentials: true });
+    return await axios.post(`${API_BASE_URL}/api/genres/_list`, filter);
 };
 
 const createGenre = async (body) => {
-    return await axios.post(`${API_BASE_URL}/genres`, body, { withCredentials: true });
+    return await axios.post(`${API_BASE_URL}/api/genres`, body);
 };
 
 const updateGenreById = async (id, body) => {
-    return await axios.put(`${API_BASE_URL}/genres/${id}`, body, { withCredentials: true });
+    return await axios.put(`${API_BASE_URL}/api/genres/${id}`, body);
 };
 
 const deleteGenreById = async (id) => {
-    return await axios.get(`${API_BASE_URL}/genres/${id}`, { withCredentials: true });
+    return await axios.get(`${API_BASE_URL}/api/genres/${id}`);
 };
 
 const exports = {

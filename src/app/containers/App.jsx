@@ -28,6 +28,7 @@ import SearchParamsConfigurator from '../components/SearchParamsConfigurator';
 import BookDetails from 'pageProviders/BookDetails';
 import { ToastContainer } from 'react-toastify';
 import BookNew from 'pageProviders/BookNew';
+import LoginResult from 'app/components/LoginResult';
 
 function App() {
   const dispatch = useDispatch();
@@ -136,6 +137,10 @@ function App() {
                         <BookNew/>
                       )}
                       path={`/new`}
+                    />
+                    <Route
+                      path="/login/callback"
+                      element={<LoginResult />}
                     />
                   </Routes>
                 )}

@@ -6,6 +6,7 @@ function Stack({
     justifyContent,
     alignItems,
     spacing,
+    sx,
 }) {
     return (
         <StackMUI
@@ -13,6 +14,7 @@ function Stack({
             justifyContent={justifyContent}
             alignItems={alignItems}
             spacing={spacing}
+            sx={sx}
         >
             {children}
         </StackMUI>

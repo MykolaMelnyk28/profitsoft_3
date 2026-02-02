@@ -10,6 +10,8 @@ import CardHeader from "components/CardHeader";
 import Button from "components/Button";
 import DeleteIcon from 'components/Delete';
 import { useLocation } from "react-router-dom";
+import SecuredBox from "app/components/SecuredBox";
+import useSecuredCallback from "misc/hooks/useSecuredCallback";
 
 function BookItem({ item, onDelete }) {
     const location = useLocation();
@@ -37,10 +39,10 @@ function BookItem({ item, onDelete }) {
         setDeleteDialogOpen(false);
     };
 
-    const onDeleteDialogOk = () => {
+    const onDeleteDialogOk = useSecuredCallback(() => {
         setDeleteDialogOpen(false);
         onDelete(item);
-    };
+    });
 
     return (
         <>
@@ -66,9 +68,11 @@ function BookItem({ item, onDelete }) {
                         </Typography>
                     }
                     action={isHover && (
-                        <Button onClick={onDeleteDialogOpen}>
-                            <DeleteIcon   />
-                        </Button>
+                        <SecuredBox>
+                            <Button onClick={onDeleteDialogOpen}>
+                                <DeleteIcon />
+                            </Button>
+                        </SecuredBox>
                     )}
                 />
                 <CardContent>

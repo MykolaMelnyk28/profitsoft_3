@@ -23,5 +23,7 @@
     "page.list.deleteDialog.cancellButton": "No",
     "page.list.deleteItem.sucessMessage": "Successfully deleted",
     "page.list.pagination.showMore.title": "Show more",
-    "page.list.filter.searchInput.label": "Search"
+    "page.list.filter.searchInput.label": "Search",
+    "signIn.success": "Login successful",
+    "signIn.fail": "Login failed"
 }

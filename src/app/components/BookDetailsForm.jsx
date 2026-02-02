@@ -13,6 +13,7 @@ import actionsBooks from 'app/actions/books';
 import { useIntl } from "react-intl";
 import Typography from "components/Typography";
 import { Status } from "app/constants/bookActionTypes";
+import useSecuredCallback from "misc/hooks/useSecuredCallback";
 
 const modes = {
     create: 'create',
@@ -82,14 +83,14 @@ function BookDetailsForm({ mode = modes.create, defaultValue, onSubmit, onCancel
 
     const hasErrors = (errors) => Object.values(errors).some(arr => arr.length > 0);
 
-    const handleSubmit = () => {
+    const handleSubmit = useSecuredCallback(() => {
         const validationErrors = validateFormData();
         if (hasErrors(validationErrors)) {
             dispatch(actionsBooks.setBookErrors(prev => ({ ...prev, global: [...prev.global, { messageId: errorTypes.validationError }] })));
             return;
         }
         onSubmit(formData);
-    };
+    });
 
     const handleCancell = () => onCancell();
 
