@@ -55,8 +55,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ steps.image.outputs.name }}/frontend:${{ github.sha }}
-            ${{ env.REGISTRY }}/${{ steps.image.outputs.name }}/frontend:latest
+            ${{ env.REGISTRY }}/${{ steps.image.outputs.name }}/frontend-service:${{ github.sha }}
+            ${{ env.REGISTRY }}/${{ steps.image.outputs.name }}/frontend-service:latest
 
   trigger-deploy:
     needs: build
