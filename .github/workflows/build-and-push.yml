@@ -35,6 +35,9 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Build
+        env:
+          REACT_APP_API_BASE_URL: ${{ secrets.REACT_APP_API_BASE_URL }}
+          REACT_APP_OAUTH2_GOOGLE_AUTHORIZATION_URL: ${{ secrets.REACT_APP_OAUTH2_GOOGLE_AUTHORIZATION_URL }}
         run: npm run build
 
       - name: Login to GitHub Container Registry
