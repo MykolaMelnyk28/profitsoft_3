@@ -8,7 +8,7 @@ const getBookById = async (id) => {
 };
 
 const searchBooksByFilter = async (filter) => {
-    return axios.post(`/api/books/_list`, filter);
+    return axios.post(`${API_BASE_URL}/api/books/_list`, filter);
 };
 
 const createBook = async (body) => {
