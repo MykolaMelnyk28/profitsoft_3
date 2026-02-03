@@ -10,9 +10,9 @@ import storage, { keys } from '../storage';
 // });
 
 const api = axios.create({
-  // withCredentials: true,
-  // xsrfCookieName: "XSRF-TOKEN",
-  // xsrfHeaderName: "X-XSRF-TOKEN"
+  withCredentials: true,
+  xsrfCookieName: "XSRF-TOKEN",
+  xsrfHeaderName: "X-XSRF-TOKEN"
 });
 
 
