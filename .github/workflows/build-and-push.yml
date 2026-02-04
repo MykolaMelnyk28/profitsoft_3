@@ -38,7 +38,7 @@ jobs:
         env:
           REACT_APP_API_BASE_URL: ${{ secrets.REACT_APP_API_BASE_URL }}
           REACT_APP_OAUTH2_GOOGLE_AUTHORIZATION_URL: ${{ secrets.REACT_APP_OAUTH2_GOOGLE_AUTHORIZATION_URL }}
-        run: npm run build
+        run: CI=false npm run build
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
@@ -58,8 +58,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ steps.image.outputs.name }}/frontend-service:${{ github.sha }}
-            ${{ env.REGISTRY }}/${{ steps.image.outputs.name }}/frontend-service:latest
+            ${{ env.REGISTRY }}/${{ steps.owner.outputs.value }}/frontend-service:${{ github.sha }}
+            ${{ env.REGISTRY }}/${{ steps.owner.outputs.value }}/frontend-service:latest
 
   trigger-deploy:
     needs: build
