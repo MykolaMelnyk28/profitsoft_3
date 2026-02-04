@@ -1,0 +1,1894 @@
+[
+  {
+    "author": {
+      "firstName": "Johnnie",
+      "id": 1,
+      "lastName": "Rohan"
+    },
+    "description": "description1",
+    "genres": [
+      {
+        "id": 1,
+        "name": "Crime/Detective"
+      }
+    ],
+    "id": 1,
+    "pages": 754,
+    "title": "The Moving Toyshop",
+    "yearPublished": 2012
+  },
+  {
+    "author": {
+      "firstName": "Shirleen",
+      "id": 2,
+      "lastName": "Kiehn"
+    },
+    "description": "description2",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      },
+      {
+        "id": 3,
+        "name": "Horror"
+      },
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      },
+      {
+        "id": 5,
+        "name": "Fiction in verse"
+      }
+    ],
+    "id": 2,
+    "pages": 112,
+    "title": "Time of our Darkness",
+    "yearPublished": 2012
+  },
+  {
+    "author": {
+      "firstName": "Marcene",
+      "id": 3,
+      "lastName": "Emard"
+    },
+    "description": "description3",
+    "genres": [
+      {
+        "id": 6,
+        "name": "Classic"
+      },
+      {
+        "id": 7,
+        "name": "Short story"
+      }
+    ],
+    "id": 3,
+    "pages": 717,
+    "title": "The Torment of Others",
+    "yearPublished": 2022
+  },
+  {
+    "author": {
+      "firstName": "Princess",
+      "id": 4,
+      "lastName": "Senger"
+    },
+    "description": "description4",
+    "genres": [
+      {
+        "id": 8,
+        "name": "Suspense/Thriller"
+      },
+      {
+        "id": 3,
+        "name": "Horror"
+      }
+    ],
+    "id": 4,
+    "pages": 480,
+    "title": "A Darkling Plain",
+    "yearPublished": 2010
+  },
+  {
+    "author": {
+      "firstName": "Jefferey",
+      "id": 5,
+      "lastName": "Toy"
+    },
+    "description": "description5",
+    "genres": [
+      {
+        "id": 9,
+        "name": "Reference book"
+      },
+      {
+        "id": 3,
+        "name": "Horror"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      }
+    ],
+    "id": 5,
+    "pages": 791,
+    "title": "Jesting Pilate",
+    "yearPublished": 2019
+  },
+  {
+    "author": {
+      "firstName": "Jonah",
+      "id": 6,
+      "lastName": "Krajcik"
+    },
+    "description": "description6",
+    "genres": [
+      {
+        "id": 11,
+        "name": "Mythopoeia"
+      }
+    ],
+    "id": 6,
+    "pages": 604,
+    "title": "Sleep the Brave",
+    "yearPublished": 2016
+  },
+  {
+    "author": {
+      "firstName": "Chester",
+      "id": 7,
+      "lastName": "Raynor"
+    },
+    "description": "description7",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      },
+      {
+        "id": 12,
+        "name": "Essay"
+      }
+    ],
+    "id": 7,
+    "pages": 737,
+    "title": "Those Barren Leaves, Thrones, Dominations",
+    "yearPublished": 2020
+  },
+  {
+    "author": {
+      "firstName": "Cody",
+      "id": 8,
+      "lastName": "Grant"
+    },
+    "description": "description8",
+    "genres": [
+      {
+        "id": 13,
+        "name": "Mystery"
+      },
+      {
+        "id": 5,
+        "name": "Fiction in verse"
+      },
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 8,
+    "pages": 525,
+    "title": "The Widening Gyre",
+    "yearPublished": 2025
+  },
+  {
+    "author": {
+      "firstName": "Aida",
+      "id": 9,
+      "lastName": "Ebert"
+    },
+    "description": "description9",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      }
+    ],
+    "id": 9,
+    "pages": 308,
+    "title": "To Your Scattered Bodies Go",
+    "yearPublished": 2014
+  },
+  {
+    "author": {
+      "firstName": "Markus",
+      "id": 10,
+      "lastName": "Price"
+    },
+    "description": "description10",
+    "genres": [
+      {
+        "id": 9,
+        "name": "Reference book"
+      },
+      {
+        "id": 1,
+        "name": "Crime/Detective"
+      },
+      {
+        "id": 11,
+        "name": "Mythopoeia"
+      },
+      {
+        "id": 12,
+        "name": "Essay"
+      }
+    ],
+    "id": 10,
+    "pages": 255,
+    "title": "Butter In a Lordly Dish",
+    "yearPublished": 2012
+  },
+  {
+    "author": {
+      "firstName": "Ming",
+      "id": 11,
+      "lastName": "Gorczany"
+    },
+    "description": "description11",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      }
+    ],
+    "id": 11,
+    "pages": 604,
+    "title": "Dying of the Light",
+    "yearPublished": 2018
+  },
+  {
+    "author": {
+      "firstName": "Cody",
+      "id": 8,
+      "lastName": "Grant"
+    },
+    "description": "description12",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      },
+      {
+        "id": 5,
+        "name": "Fiction in verse"
+      }
+    ],
+    "id": 12,
+    "pages": 31,
+    "title": "A Passage to India",
+    "yearPublished": 2002
+  },
+  {
+    "author": {
+      "firstName": "Markus",
+      "id": 10,
+      "lastName": "Price"
+    },
+    "description": "description13",
+    "genres": [
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 13,
+    "pages": 643,
+    "title": "Noli Me Tangere",
+    "yearPublished": 2021
+  },
+  {
+    "author": {
+      "firstName": "Nova",
+      "id": 12,
+      "lastName": "Thiel"
+    },
+    "description": "description14",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      }
+    ],
+    "id": 14,
+    "pages": 593,
+    "title": "Time To Murder And Create",
+    "yearPublished": 2021
+  },
+  {
+    "author": {
+      "firstName": "Markus",
+      "id": 10,
+      "lastName": "Price"
+    },
+    "description": "description15",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 17,
+        "name": "Science fiction"
+      },
+      {
+        "id": 11,
+        "name": "Mythopoeia"
+      }
+    ],
+    "id": 15,
+    "pages": 484,
+    "title": "Terrible Swift Sword",
+    "yearPublished": 2016
+  },
+  {
+    "author": {
+      "firstName": "Devin",
+      "id": 13,
+      "lastName": "Dibbert"
+    },
+    "description": "description16",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      },
+      {
+        "id": 12,
+        "name": "Essay"
+      },
+      {
+        "id": 18,
+        "name": "Narrative nonfiction"
+      }
+    ],
+    "id": 16,
+    "pages": 707,
+    "title": "The Moving Toyshop",
+    "yearPublished": 2000
+  },
+  {
+    "author": {
+      "firstName": "Rosette",
+      "id": 14,
+      "lastName": "Turner"
+    },
+    "description": "description17",
+    "genres": [
+      {
+        "id": 1,
+        "name": "Crime/Detective"
+      }
+    ],
+    "id": 17,
+    "pages": 318,
+    "title": "The Widening Gyre",
+    "yearPublished": 2001
+  },
+  {
+    "author": {
+      "firstName": "Versie",
+      "id": 15,
+      "lastName": "Wehner"
+    },
+    "description": "description18",
+    "genres": [
+      {
+        "id": 8,
+        "name": "Suspense/Thriller"
+      },
+      {
+        "id": 3,
+        "name": "Horror"
+      },
+      {
+        "id": 19,
+        "name": "Metafiction"
+      }
+    ],
+    "id": 18,
+    "pages": 620,
+    "title": "Vanity Fair",
+    "yearPublished": 2000
+  },
+  {
+    "author": {
+      "firstName": "Sandee",
+      "id": 16,
+      "lastName": "Schinner"
+    },
+    "description": "description19",
+    "genres": [
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      },
+      {
+        "id": 17,
+        "name": "Science fiction"
+      },
+      {
+        "id": 11,
+        "name": "Mythopoeia"
+      },
+      {
+        "id": 18,
+        "name": "Narrative nonfiction"
+      }
+    ],
+    "id": 19,
+    "pages": 181,
+    "title": "Great Work of Time",
+    "yearPublished": 2000
+  },
+  {
+    "author": {
+      "firstName": "Charley",
+      "id": 17,
+      "lastName": "Littel"
+    },
+    "description": "description20",
+    "genres": [
+      {
+        "id": 12,
+        "name": "Essay"
+      }
+    ],
+    "id": 20,
+    "pages": 654,
+    "title": "The Painted Veil",
+    "yearPublished": 2010
+  },
+  {
+    "author": {
+      "firstName": "Stewart",
+      "id": 18,
+      "lastName": "Carter"
+    },
+    "description": "description21",
+    "genres": [
+      {
+        "id": 9,
+        "name": "Reference book"
+      },
+      {
+        "id": 12,
+        "name": "Essay"
+      }
+    ],
+    "id": 21,
+    "pages": 760,
+    "title": "The Yellow Meads of Asphodel",
+    "yearPublished": 2006
+  },
+  {
+    "author": {
+      "firstName": "Emogene",
+      "id": 19,
+      "lastName": "Gerhold"
+    },
+    "description": "description22",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      },
+      {
+        "id": 6,
+        "name": "Classic"
+      }
+    ],
+    "id": 22,
+    "pages": 768,
+    "title": "Bury My Heart at Wounded Knee",
+    "yearPublished": 2008
+  },
+  {
+    "author": {
+      "firstName": "Patty",
+      "id": 20,
+      "lastName": "Gislason"
+    },
+    "description": "description23",
+    "genres": [
+      {
+        "id": 20,
+        "name": "Comic/Graphic Novel"
+      },
+      {
+        "id": 13,
+        "name": "Mystery"
+      },
+      {
+        "id": 3,
+        "name": "Horror"
+      }
+    ],
+    "id": 23,
+    "pages": 448,
+    "title": "Fear and Trembling",
+    "yearPublished": 2003
+  },
+  {
+    "author": {
+      "firstName": "Chester",
+      "id": 7,
+      "lastName": "Raynor"
+    },
+    "description": "description24",
+    "genres": [
+      {
+        "id": 6,
+        "name": "Classic"
+      }
+    ],
+    "id": 24,
+    "pages": 511,
+    "title": "Beneath the Bleeding",
+    "yearPublished": 2003
+  },
+  {
+    "author": {
+      "firstName": "Ed",
+      "id": 21,
+      "lastName": "Von"
+    },
+    "description": "description25",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      },
+      {
+        "id": 3,
+        "name": "Horror"
+      },
+      {
+        "id": 11,
+        "name": "Mythopoeia"
+      }
+    ],
+    "id": 25,
+    "pages": 31,
+    "title": "An Acceptable Time",
+    "yearPublished": 2013
+  },
+  {
+    "author": {
+      "firstName": "Kasi",
+      "id": 22,
+      "lastName": "Wilkinson"
+    },
+    "description": "description26",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 8,
+        "name": "Suspense/Thriller"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 1,
+        "name": "Crime/Detective"
+      }
+    ],
+    "id": 26,
+    "pages": 450,
+    "title": "Consider the Lilies",
+    "yearPublished": 2013
+  },
+  {
+    "author": {
+      "firstName": "Jefferey",
+      "id": 5,
+      "lastName": "Toy"
+    },
+    "description": "description27",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      }
+    ],
+    "id": 27,
+    "pages": 776,
+    "title": "Taming a Sea Horse",
+    "yearPublished": 2010
+  },
+  {
+    "author": {
+      "firstName": "Ed",
+      "id": 21,
+      "lastName": "Von"
+    },
+    "description": "description28",
+    "genres": [
+      {
+        "id": 13,
+        "name": "Mystery"
+      },
+      {
+        "id": 9,
+        "name": "Reference book"
+      },
+      {
+        "id": 12,
+        "name": "Essay"
+      }
+    ],
+    "id": 28,
+    "pages": 65,
+    "title": "Rosemary Sutcliff",
+    "yearPublished": 2004
+  },
+  {
+    "author": {
+      "firstName": "Markus",
+      "id": 10,
+      "lastName": "Price"
+    },
+    "description": "description29",
+    "genres": [
+      {
+        "id": 17,
+        "name": "Science fiction"
+      },
+      {
+        "id": 7,
+        "name": "Short story"
+      }
+    ],
+    "id": 29,
+    "pages": 652,
+    "title": "In Death Ground",
+    "yearPublished": 2022
+  },
+  {
+    "author": {
+      "firstName": "Logan",
+      "id": 23,
+      "lastName": "Stanton"
+    },
+    "description": "description30",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 1,
+        "name": "Crime/Detective"
+      },
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 30,
+    "pages": 755,
+    "title": "Terrible Swift Sword",
+    "yearPublished": 2025
+  },
+  {
+    "author": {
+      "firstName": "Chester",
+      "id": 7,
+      "lastName": "Raynor"
+    },
+    "description": "description31",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 3,
+        "name": "Horror"
+      },
+      {
+        "id": 6,
+        "name": "Classic"
+      },
+      {
+        "id": 18,
+        "name": "Narrative nonfiction"
+      }
+    ],
+    "id": 31,
+    "pages": 444,
+    "title": "The Little Foxes",
+    "yearPublished": 2021
+  },
+  {
+    "author": {
+      "firstName": "Kellie",
+      "id": 24,
+      "lastName": "Schiller"
+    },
+    "description": "description32",
+    "genres": [
+      {
+        "id": 8,
+        "name": "Suspense/Thriller"
+      },
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      },
+      {
+        "id": 17,
+        "name": "Science fiction"
+      },
+      {
+        "id": 7,
+        "name": "Short story"
+      }
+    ],
+    "id": 32,
+    "pages": 390,
+    "title": "Dulce et Decorum Est",
+    "yearPublished": 2022
+  },
+  {
+    "author": {
+      "firstName": "Darell",
+      "id": 25,
+      "lastName": "Halvorson"
+    },
+    "description": "description33",
+    "genres": [
+      {
+        "id": 13,
+        "name": "Mystery"
+      },
+      {
+        "id": 19,
+        "name": "Metafiction"
+      }
+    ],
+    "id": 33,
+    "pages": 461,
+    "title": "Alone on a Wide, Wide Sea",
+    "yearPublished": 2017
+  },
+  {
+    "author": {
+      "firstName": "Charley",
+      "id": 17,
+      "lastName": "Littel"
+    },
+    "description": "description34",
+    "genres": [
+      {
+        "id": 6,
+        "name": "Classic"
+      }
+    ],
+    "id": 34,
+    "pages": 483,
+    "title": "An Acceptable Time",
+    "yearPublished": 2001
+  },
+  {
+    "author": {
+      "firstName": "Rosemary",
+      "id": 26,
+      "lastName": "Beahan"
+    },
+    "description": "description35",
+    "genres": [
+      {
+        "id": 20,
+        "name": "Comic/Graphic Novel"
+      },
+      {
+        "id": 19,
+        "name": "Metafiction"
+      }
+    ],
+    "id": 35,
+    "pages": 524,
+    "title": "The House of Mirth",
+    "yearPublished": 2022
+  },
+  {
+    "author": {
+      "firstName": "Alphonse",
+      "id": 27,
+      "lastName": "Kling"
+    },
+    "description": "description36",
+    "genres": [
+      {
+        "id": 17,
+        "name": "Science fiction"
+      },
+      {
+        "id": 6,
+        "name": "Classic"
+      },
+      {
+        "id": 12,
+        "name": "Essay"
+      },
+      {
+        "id": 7,
+        "name": "Short story"
+      }
+    ],
+    "id": 36,
+    "pages": 612,
+    "title": "The Painted Veil",
+    "yearPublished": 2013
+  },
+  {
+    "author": {
+      "firstName": "Shirleen",
+      "id": 2,
+      "lastName": "Kiehn"
+    },
+    "description": "description37",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      },
+      {
+        "id": 15,
+        "name": "Fantasy"
+      },
+      {
+        "id": 7,
+        "name": "Short story"
+      },
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 37,
+    "pages": 249,
+    "title": "Ah, Wilderness!",
+    "yearPublished": 2002
+  },
+  {
+    "author": {
+      "firstName": "Emma",
+      "id": 28,
+      "lastName": "Lakin"
+    },
+    "description": "description38",
+    "genres": [
+      {
+        "id": 3,
+        "name": "Horror"
+      },
+      {
+        "id": 18,
+        "name": "Narrative nonfiction"
+      }
+    ],
+    "id": 38,
+    "pages": 378,
+    "title": "Mother Night",
+    "yearPublished": 2019
+  },
+  {
+    "author": {
+      "firstName": "Moshe",
+      "id": 29,
+      "lastName": "Nolan"
+    },
+    "description": "description39",
+    "genres": [
+      {
+        "id": 11,
+        "name": "Mythopoeia"
+      },
+      {
+        "id": 5,
+        "name": "Fiction in verse"
+      },
+      {
+        "id": 18,
+        "name": "Narrative nonfiction"
+      }
+    ],
+    "id": 39,
+    "pages": 485,
+    "title": "The Glory and the Dream",
+    "yearPublished": 2003
+  },
+  {
+    "author": {
+      "firstName": "Alphonse",
+      "id": 27,
+      "lastName": "Kling"
+    },
+    "description": "description40",
+    "genres": [
+      {
+        "id": 9,
+        "name": "Reference book"
+      },
+      {
+        "id": 1,
+        "name": "Crime/Detective"
+      }
+    ],
+    "id": 40,
+    "pages": 476,
+    "title": "A Darkling Plain",
+    "yearPublished": 2011
+  },
+  {
+    "author": {
+      "firstName": "Ming",
+      "id": 11,
+      "lastName": "Gorczany"
+    },
+    "description": "description41",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      }
+    ],
+    "id": 41,
+    "pages": 410,
+    "title": "The Line of Beauty",
+    "yearPublished": 2000
+  },
+  {
+    "author": {
+      "firstName": "Magali",
+      "id": 30,
+      "lastName": "Stroman"
+    },
+    "description": "description42",
+    "genres": [
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 42,
+    "pages": 781,
+    "title": "A Time to Kill",
+    "yearPublished": 2000
+  },
+  {
+    "author": {
+      "firstName": "Newton",
+      "id": 31,
+      "lastName": "Durgan"
+    },
+    "description": "description43",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      },
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      },
+      {
+        "id": 19,
+        "name": "Metafiction"
+      }
+    ],
+    "id": 43,
+    "pages": 14,
+    "title": "Carrion Comfort",
+    "yearPublished": 2001
+  },
+  {
+    "author": {
+      "firstName": "Charley",
+      "id": 17,
+      "lastName": "Littel"
+    },
+    "description": "description44",
+    "genres": [
+      {
+        "id": 3,
+        "name": "Horror"
+      },
+      {
+        "id": 17,
+        "name": "Science fiction"
+      },
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 44,
+    "pages": 88,
+    "title": "Shall not Perish",
+    "yearPublished": 2006
+  },
+  {
+    "author": {
+      "firstName": "Moshe",
+      "id": 29,
+      "lastName": "Nolan"
+    },
+    "description": "description45",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      },
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 45,
+    "pages": 761,
+    "title": "The Glory and the Dream",
+    "yearPublished": 2000
+  },
+  {
+    "author": {
+      "firstName": "Mose",
+      "id": 32,
+      "lastName": "Fay"
+    },
+    "description": "description46",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 8,
+        "name": "Suspense/Thriller"
+      },
+      {
+        "id": 11,
+        "name": "Mythopoeia"
+      }
+    ],
+    "id": 46,
+    "pages": 105,
+    "title": "Paths of Glory",
+    "yearPublished": 2008
+  },
+  {
+    "author": {
+      "firstName": "Ming",
+      "id": 11,
+      "lastName": "Gorczany"
+    },
+    "description": "description47",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      },
+      {
+        "id": 17,
+        "name": "Science fiction"
+      }
+    ],
+    "id": 47,
+    "pages": 115,
+    "title": "The Heart Is Deceitful Above All Things",
+    "yearPublished": 2010
+  },
+  {
+    "author": {
+      "firstName": "Randall",
+      "id": 33,
+      "lastName": "Thiel"
+    },
+    "description": "description48",
+    "genres": [
+      {
+        "id": 8,
+        "name": "Suspense/Thriller"
+      },
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      },
+      {
+        "id": 17,
+        "name": "Science fiction"
+      },
+      {
+        "id": 6,
+        "name": "Classic"
+      }
+    ],
+    "id": 48,
+    "pages": 446,
+    "title": "The Needle's Eye",
+    "yearPublished": 2018
+  },
+  {
+    "author": {
+      "firstName": "Selina",
+      "id": 34,
+      "lastName": "Huel"
+    },
+    "description": "description49",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 3,
+        "name": "Horror"
+      },
+      {
+        "id": 1,
+        "name": "Crime/Detective"
+      }
+    ],
+    "id": 49,
+    "pages": 651,
+    "title": "The World, the Flesh and the Devil",
+    "yearPublished": 2012
+  },
+  {
+    "author": {
+      "firstName": "Moshe",
+      "id": 29,
+      "lastName": "Nolan"
+    },
+    "description": "description50",
+    "genres": [
+      {
+        "id": 13,
+        "name": "Mystery"
+      },
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 19,
+        "name": "Metafiction"
+      },
+      {
+        "id": 7,
+        "name": "Short story"
+      }
+    ],
+    "id": 50,
+    "pages": 61,
+    "title": "I Will Fear No Evil",
+    "yearPublished": 2002
+  },
+  {
+    "author": {
+      "firstName": "Jefferey",
+      "id": 5,
+      "lastName": "Toy"
+    },
+    "description": "description51",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      },
+      {
+        "id": 15,
+        "name": "Fantasy"
+      }
+    ],
+    "id": 51,
+    "pages": 185,
+    "title": "A Swiftly Tilting Planet",
+    "yearPublished": 2023
+  },
+  {
+    "author": {
+      "firstName": "Logan",
+      "id": 23,
+      "lastName": "Stanton"
+    },
+    "description": "description52",
+    "genres": [
+      {
+        "id": 9,
+        "name": "Reference book"
+      },
+      {
+        "id": 1,
+        "name": "Crime/Detective"
+      }
+    ],
+    "id": 52,
+    "pages": 201,
+    "title": "Quo Vadis",
+    "yearPublished": 2014
+  },
+  {
+    "author": {
+      "firstName": "Alphonse",
+      "id": 27,
+      "lastName": "Kling"
+    },
+    "description": "description53",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      }
+    ],
+    "id": 53,
+    "pages": 188,
+    "title": "This Lime Tree Bower",
+    "yearPublished": 2017
+  },
+  {
+    "author": {
+      "firstName": "Markus",
+      "id": 10,
+      "lastName": "Price"
+    },
+    "description": "description54",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      },
+      {
+        "id": 9,
+        "name": "Reference book"
+      },
+      {
+        "id": 18,
+        "name": "Narrative nonfiction"
+      }
+    ],
+    "id": 54,
+    "pages": 406,
+    "title": "Cabbages and Kings",
+    "yearPublished": 2021
+  },
+  {
+    "author": {
+      "firstName": "Pearlie",
+      "id": 35,
+      "lastName": "Barton"
+    },
+    "description": "description55",
+    "genres": [
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      }
+    ],
+    "id": 55,
+    "pages": 687,
+    "title": "Gone with the Wind",
+    "yearPublished": 2024
+  },
+  {
+    "author": {
+      "firstName": "Johnnie",
+      "id": 1,
+      "lastName": "Rohan"
+    },
+    "description": "description56",
+    "genres": [
+      {
+        "id": 13,
+        "name": "Mystery"
+      },
+      {
+        "id": 9,
+        "name": "Reference book"
+      },
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      },
+      {
+        "id": 1,
+        "name": "Crime/Detective"
+      }
+    ],
+    "id": 56,
+    "pages": 766,
+    "title": "The Way Through the Woods",
+    "yearPublished": 2021
+  },
+  {
+    "author": {
+      "firstName": "Jamie",
+      "id": 36,
+      "lastName": "Cassin"
+    },
+    "description": "description57",
+    "genres": [
+      {
+        "id": 8,
+        "name": "Suspense/Thriller"
+      },
+      {
+        "id": 17,
+        "name": "Science fiction"
+      },
+      {
+        "id": 6,
+        "name": "Classic"
+      }
+    ],
+    "id": 57,
+    "pages": 736,
+    "title": "Look to Windward",
+    "yearPublished": 2004
+  },
+  {
+    "author": {
+      "firstName": "Burma",
+      "id": 37,
+      "lastName": "Streich"
+    },
+    "description": "description58",
+    "genres": [
+      {
+        "id": 19,
+        "name": "Metafiction"
+      },
+      {
+        "id": 5,
+        "name": "Fiction in verse"
+      }
+    ],
+    "id": 58,
+    "pages": 258,
+    "title": "The Painted Veil",
+    "yearPublished": 2000
+  },
+  {
+    "author": {
+      "firstName": "Burma",
+      "id": 37,
+      "lastName": "Streich"
+    },
+    "description": "description59",
+    "genres": [
+      {
+        "id": 8,
+        "name": "Suspense/Thriller"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 11,
+        "name": "Mythopoeia"
+      }
+    ],
+    "id": 59,
+    "pages": 449,
+    "title": "Eyeless in Gaza",
+    "yearPublished": 2007
+  },
+  {
+    "author": {
+      "firstName": "Jonah",
+      "id": 6,
+      "lastName": "Krajcik"
+    },
+    "description": "description60",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      },
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 4,
+        "name": "Fiction narrative"
+      },
+      {
+        "id": 17,
+        "name": "Science fiction"
+      }
+    ],
+    "id": 60,
+    "pages": 506,
+    "title": "Blithe Spirit",
+    "yearPublished": 2006
+  },
+  {
+    "author": {
+      "firstName": "Markus",
+      "id": 10,
+      "lastName": "Price"
+    },
+    "description": "description61",
+    "genres": [
+      {
+        "id": 20,
+        "name": "Comic/Graphic Novel"
+      },
+      {
+        "id": 16,
+        "name": "Mythology"
+      }
+    ],
+    "id": 61,
+    "pages": 463,
+    "title": "Taming a Sea Horse",
+    "yearPublished": 2002
+  },
+  {
+    "author": {
+      "firstName": "Rosette",
+      "id": 14,
+      "lastName": "Turner"
+    },
+    "description": "description62",
+    "genres": [
+      {
+        "id": 5,
+        "name": "Fiction in verse"
+      }
+    ],
+    "id": 62,
+    "pages": 57,
+    "title": "Time To Murder And Create",
+    "yearPublished": 2018
+  },
+  {
+    "author": {
+      "firstName": "Selina",
+      "id": 34,
+      "lastName": "Huel"
+    },
+    "description": "description63",
+    "genres": [
+      {
+        "id": 18,
+        "name": "Narrative nonfiction"
+      }
+    ],
+    "id": 63,
+    "pages": 600,
+    "title": "In a Glass Darkly",
+    "yearPublished": 2000
+  },
+  {
+    "author": {
+      "firstName": "Ed",
+      "id": 21,
+      "lastName": "Von"
+    },
+    "description": "description64",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 64,
+    "pages": 402,
+    "title": "Recalled to Life",
+    "yearPublished": 2010
+  },
+  {
+    "author": {
+      "firstName": "Chester",
+      "id": 7,
+      "lastName": "Raynor"
+    },
+    "description": "description65",
+    "genres": [
+      {
+        "id": 19,
+        "name": "Metafiction"
+      },
+      {
+        "id": 7,
+        "name": "Short story"
+      }
+    ],
+    "id": 65,
+    "pages": 191,
+    "title": "The Stars' Tennis Balls",
+    "yearPublished": 2002
+  },
+  {
+    "author": {
+      "firstName": "Moshe",
+      "id": 29,
+      "lastName": "Nolan"
+    },
+    "description": "description66",
+    "genres": [
+      {
+        "id": 2,
+        "name": "Fairy tale"
+      },
+      {
+        "id": 16,
+        "name": "Mythology"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 17,
+        "name": "Science fiction"
+      }
+    ],
+    "id": 66,
+    "pages": 643,
+    "title": "Those Barren Leaves, Thrones, Dominations",
+    "yearPublished": 2020
+  },
+  {
+    "author": {
+      "firstName": "Jamie",
+      "id": 36,
+      "lastName": "Cassin"
+    },
+    "description": "description67",
+    "genres": [
+      {
+        "id": 9,
+        "name": "Reference book"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 19,
+        "name": "Metafiction"
+      },
+      {
+        "id": 18,
+        "name": "Narrative nonfiction"
+      }
+    ],
+    "id": 67,
+    "pages": 238,
+    "title": "The Soldier's Art",
+    "yearPublished": 2002
+  },
+  {
+    "author": {
+      "firstName": "Alphonse",
+      "id": 27,
+      "lastName": "Kling"
+    },
+    "description": "description68",
+    "genres": [
+      {
+        "id": 5,
+        "name": "Fiction in verse"
+      }
+    ],
+    "id": 68,
+    "pages": 445,
+    "title": "No Longer at Ease",
+    "yearPublished": 2010
+  },
+  {
+    "author": {
+      "firstName": "Shirleen",
+      "id": 2,
+      "lastName": "Kiehn"
+    },
+    "description": "description69",
+    "genres": [
+      {
+        "id": 13,
+        "name": "Mystery"
+      },
+      {
+        "id": 15,
+        "name": "Fantasy"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      }
+    ],
+    "id": 69,
+    "pages": 503,
+    "title": "Arms and the Man",
+    "yearPublished": 2013
+  },
+  {
+    "author": {
+      "firstName": "Charley",
+      "id": 17,
+      "lastName": "Littel"
+    },
+    "description": "description70",
+    "genres": [
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 70,
+    "pages": 19,
+    "title": "Specimen Days",
+    "yearPublished": 2018
+  },
+  {
+    "author": {
+      "firstName": "Stewart",
+      "id": 18,
+      "lastName": "Carter"
+    },
+    "description": "description71",
+    "genres": [
+      {
+        "id": 18,
+        "name": "Narrative nonfiction"
+      }
+    ],
+    "id": 71,
+    "pages": 184,
+    "title": "A Confederacy of Dunces",
+    "yearPublished": 2006
+  },
+  {
+    "author": {
+      "firstName": "Cory",
+      "id": 38,
+      "lastName": "Wehner"
+    },
+    "description": "description72",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      }
+    ],
+    "id": 72,
+    "pages": 469,
+    "title": "The Way of All Flesh",
+    "yearPublished": 2017
+  },
+  {
+    "author": {
+      "firstName": "Randall",
+      "id": 33,
+      "lastName": "Thiel"
+    },
+    "description": "description73",
+    "genres": [
+      {
+        "id": 13,
+        "name": "Mystery"
+      },
+      {
+        "id": 5,
+        "name": "Fiction in verse"
+      }
+    ],
+    "id": 73,
+    "pages": 565,
+    "title": "Blue Remembered Earth",
+    "yearPublished": 2019
+  },
+  {
+    "author": {
+      "firstName": "Cameron",
+      "id": 39,
+      "lastName": "Parker"
+    },
+    "description": "description74",
+    "genres": [
+      {
+        "id": 20,
+        "name": "Comic/Graphic Novel"
+      },
+      {
+        "id": 6,
+        "name": "Classic"
+      }
+    ],
+    "id": 74,
+    "pages": 81,
+    "title": "An Acceptable Time",
+    "yearPublished": 2012
+  },
+  {
+    "author": {
+      "firstName": "Shirleen",
+      "id": 2,
+      "lastName": "Kiehn"
+    },
+    "description": "description75",
+    "genres": [
+      {
+        "id": 6,
+        "name": "Classic"
+      }
+    ],
+    "id": 75,
+    "pages": 290,
+    "title": "Jacob Have I Loved",
+    "yearPublished": 2024
+  },
+  {
+    "author": {
+      "firstName": "Randall",
+      "id": 33,
+      "lastName": "Thiel"
+    },
+    "description": "description76",
+    "genres": [
+      {
+        "id": 13,
+        "name": "Mystery"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      }
+    ],
+    "id": 76,
+    "pages": 13,
+    "title": "Blithe Spirit",
+    "yearPublished": 2018
+  },
+  {
+    "author": {
+      "firstName": "Lavenia",
+      "id": 40,
+      "lastName": "Dicki"
+    },
+    "description": "description77",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      }
+    ],
+    "id": 77,
+    "pages": 420,
+    "title": "The Yellow Meads of Asphodel",
+    "yearPublished": 2024
+  },
+  {
+    "author": {
+      "firstName": "Walton",
+      "id": 41,
+      "lastName": "Kertzmann"
+    },
+    "description": "description78",
+    "genres": [
+      {
+        "id": 15,
+        "name": "Fantasy"
+      },
+      {
+        "id": 10,
+        "name": "Textbook"
+      },
+      {
+        "id": 11,
+        "name": "Mythopoeia"
+      }
+    ],
+    "id": 78,
+    "pages": 550,
+    "title": "Tender Is the Night",
+    "yearPublished": 2024
+  },
+  {
+    "author": {
+      "firstName": "Alphonse",
+      "id": 27,
+      "lastName": "Kling"
+    },
+    "description": "description79",
+    "genres": [
+      {
+        "id": 14,
+        "name": "Legend"
+      }
+    ],
+    "id": 79,
+    "pages": 676,
+    "title": "A Many-Splendoured Thing",
+    "yearPublished": 2006
+  },
+  {
+    "author": {
+      "firstName": "Kasi",
+      "id": 22,
+      "lastName": "Wilkinson"
+    },
+    "description": "description80",
+    "genres": [
+      {
+        "id": 20,
+        "name": "Comic/Graphic Novel"
+      },
+      {
+        "id": 8,
+        "name": "Suspense/Thriller"
+      },
+      {
+        "id": 19,
+        "name": "Metafiction"
+      },
+      {
+        "id": 5,
+        "name": "Fiction in verse"
+      }
+    ],
+    "id": 80,
+    "pages": 668,
+    "title": "Consider the Lilies",
+    "yearPublished": 2020
+  }
+]

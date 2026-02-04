@@ -1,0 +1,15 @@
+networks:
+  book-api-network:
+    external: true
+
+services:
+  frontend:
+    build:
+      context: .
+    env_file:
+      - .env
+    ports:
+      - '81:80'
+    networks:
+      - book-api-network
+    

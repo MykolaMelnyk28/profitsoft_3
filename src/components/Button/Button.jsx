@@ -6,7 +6,7 @@ import CircularProgress from '../CircularProgress';
 const colorVariants = {
   header: 'header',
   primary: 'primary',
-  secondary: 'secondary',
+  secondary: 'secondary'
 };
 
 const variants = {
@@ -30,6 +30,7 @@ function Button({
   onClick,
   startIcon,
   variant = variants.secondary,
+  fullWidth = false
 }) {
   const { theme } = useTheme();
   return (
@@ -38,6 +39,7 @@ function Button({
         <ButtonMUI
           disabled
           variant="contained"
+          fullWidth={fullWidth}
         >
           <CircularProgress size={16} />
         </ButtonMUI>
@@ -48,6 +50,7 @@ function Button({
           endIcon={endIcon}
           onClick={onClick}
           startIcon={startIcon}
+          fullWidth={fullWidth}
           sx={{
             '&.MuiButton-root': {
               background: theme.button.color[colorVariant].background,
@@ -61,6 +64,7 @@ function Button({
               '&.Mui-disabled': {
                 background: theme.button.color[colorVariant].backgroundDisabled,
               },
+              width: fullWidth ? undefined : 'max-content',
             },
           }}
           variant={MUIVariantsToVariants[variant]}

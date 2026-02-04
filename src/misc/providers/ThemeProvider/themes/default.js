@@ -206,6 +206,19 @@ const theme = {
         letterSpacing: '0.03333em',
         lineHeight: 1.3,
       },
+      bigTitle: {
+        fontFamily: 'sans-serif',
+        fontSize: '2rem',
+        fontWeight: 'bold',
+        letterSpacing: '0.03333em',
+        lineHeight: 1.3,
+      },
+      strongText: {
+        fontFamily: 'sans-serif',
+        fontSize: '14px',
+        fontWeight: 'bold',
+        letterSpacing: '0.03333em',
+      },
     },
   },
 };

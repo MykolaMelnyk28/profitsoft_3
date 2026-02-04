@@ -18,6 +18,7 @@ function Link({
   target,
   to,
   underline = false,
+  state,
 }) {
   const classes= getClasses();
   const locationSearch = useLocationSearch();
@@ -37,6 +38,7 @@ function Link({
       onClick={onClick}
       target={target}
       to={actualTo}
+      state={state}
     >
       {children}
     </LinkComponent>

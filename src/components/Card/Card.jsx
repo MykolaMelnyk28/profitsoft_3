@@ -16,6 +16,8 @@ function Card({
   children,
   disablePaddings = false,
   variant = variants.paper,
+  onMouseEnter,
+  onMouseLeave,
 }) {
   const { theme } = useTheme();
   return (
@@ -28,10 +30,12 @@ function Card({
         gap: `${theme.spacing(2)}px`,
         padding: disablePaddings
           ? 'none'
-          : `${theme.spacing(2)}px 0px`,
+          : `0px 0px ${theme.spacing(2)}px 0px`,
         transition: 'all 0.2s ease-out',
         width: '100%',
       }}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
     >
       {children}
     </CardMUI>

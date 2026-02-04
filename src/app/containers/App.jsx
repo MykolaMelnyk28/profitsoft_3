@@ -16,7 +16,6 @@ import Loading from 'components/Loading';
 import LoginPage from 'pageProviders/Login';
 import PageContainer from 'pageProviders/components/PageContainer';
 import pageURLs from 'constants/pagesURLs';
-import SecretPage from 'pageProviders/Secret';
 import ThemeProvider from 'misc/providers/ThemeProvider';
 import UserProvider from 'misc/providers/UserProvider';
 
@@ -25,6 +24,10 @@ import Header from '../components/Header';
 import IntlProvider from '../components/IntlProvider';
 import MissedPage from '../components/MissedPage';
 import SearchParamsConfigurator from '../components/SearchParamsConfigurator';
+import BookDetails from 'pageProviders/BookDetails';
+import { ToastContainer } from 'react-toastify';
+import BookNew from 'pageProviders/BookNew';
+import LoginResult from 'app/components/LoginResult';
 
 function App() {
   const dispatch = useDispatch();
@@ -63,6 +66,7 @@ function App() {
               * initializing) */}
             {state.componentDidMount && (
               <IntlProvider>
+                <ToastContainer />
                 <Header onLogout={() => dispatch(actionsUser.fetchSignOut())} />
                 {isFetchingUser && (
                   <PageContainer>
@@ -74,10 +78,6 @@ function App() {
                     <Route
                       element={<DefaultPage />}
                       path={`${pageURLs[pages.defaultPage]}`}
-                    />
-                    <Route
-                      element={<SecretPage />}
-                      path={`${pageURLs[pages.secretPage]}`}
                     />
                     <Route
                       element={(
@@ -120,6 +120,22 @@ function App() {
                         />
                       )}
                       path="*"
+                    />
+                    <Route 
+                      element={(
+                        <BookDetails/>
+                      )}
+                      path={`/details/:id`}
+                    />
+                    <Route 
+                      element={(
+                        <BookNew/>
+                      )}
+                      path={`/new`}
+                    />
+                    <Route
+                      path="/login/callback"
+                      element={<LoginResult />}
                     />
                   </Routes>
                 )}
