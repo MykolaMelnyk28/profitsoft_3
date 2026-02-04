@@ -7,7 +7,6 @@ COPY src ./src
 COPY package.json package.json
 COPY package-lock.json ./package-lock.json
 COPY jsconfig.json ./jsconfig.json
-COPY .env ./.env
 
 RUN npm ci --legacy-peer-deps
 
@@ -17,10 +16,10 @@ FROM nginx:stable-alpine
 
 RUN apk add --no-cache curl
 
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-
 COPY --from=build /app/build /usr/share/nginx/html
 
-EXPOSE 8080
+COPY nginx.conf.template /etc/nginx/conf.d/default.conf.template
 
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 80
+
+CMD ["sh", "-c", "envsubst '$REACT_APP_API_BASE_URL' < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"]

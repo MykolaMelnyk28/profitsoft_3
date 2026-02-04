@@ -9,7 +9,7 @@ services:
     env_file:
       - .env
     ports:
-      - '8085:8085'
+      - '81:80'
     networks:
       - book-api-network
     
