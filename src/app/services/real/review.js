@@ -5,16 +5,16 @@ const { API_BASE_URL } = config;
 
 const searchReviewsByFilter = async (filter) => {
   const { bookId, from, size } = filter;
-  const url = `${API_BASE_URL}/api/reviews?bookId=${bookId}&from=${from}&size=${size}`;
+  const url = `/api/reviews?bookId=${bookId}&from=${from}&size=${size}`;
   return axios.get(url);
 };
 
 const getCountsByBookIds = async (bookIds) => {
-  return axios.post(`${API_BASE_URL}/api/reviews/_counts`, { bookIds });
+  return axios.post(`/api/reviews/_counts`, { bookIds });
 };
 
 const createReview = async (body) => {
-  return axios.post(`${API_BASE_URL}/api/reviews`, body);
+  return axios.post(`/api/reviews`, body);
 };
 
 const exports = {
