@@ -78,7 +78,7 @@ jobs:
           client-payload: |
             {
               "services": "frontend",
-              "tag": "${{ github.sha }}",
+              "tag": "latest",
               "source_repo": "${{ github.repository }}",
-              "commit_message": "${{ github.event.head_commit.message }}"
+              "commit_sha": "${{ github.sha }}"
             }
