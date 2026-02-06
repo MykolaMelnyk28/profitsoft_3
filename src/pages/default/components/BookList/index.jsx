@@ -1,7 +1,7 @@
 import Typography from "components/Typography";
 import Stack from "components/Stack";
 import Divider from "components/Divider";
-import { useCallback, useEffect, useMemo } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useIntl } from "react-intl";
 import { useDispatch, useSelector } from "react-redux";
 import { useSearchParams } from "react-router-dom";
@@ -92,8 +92,8 @@ function BookList() {
     const handleCreateClick = () => {
 
     };
-    const handleDeleteItem = item => {
-        dispatch(actionsBooks.deleteBookById(item.id));
+    const handleDeleteItem = async item => {
+        await dispatch(actionsBooks.deleteBookById(item.id));
         dispatch(actionsBooks.fetchBookPage(filter));
     }
 

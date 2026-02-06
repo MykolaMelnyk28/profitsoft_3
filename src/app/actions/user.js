@@ -1,6 +1,3 @@
-import axios from 'misc/requests';
-import config from 'config';
-import storage, { keys } from 'misc/storage';
 import {
   ERROR_RECEIVE_USER,
   RECEIVE_USER,
@@ -38,7 +35,7 @@ const handleError = (err, dispatch) => {
 const fetchSignOut = () => (dispatch) => {
   dispatch(requestSignOut());
   return userService.signOut()
-    .then(response => dispatch(uiActions.showSuccessToast('signOut')))
+    .then(response => dispatch(uiActions.showSuccessToast('signOut.success')))
     .catch(err => handleError(err, dispatch))
 };
 

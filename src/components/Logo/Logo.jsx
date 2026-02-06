@@ -44,20 +44,13 @@ function Logo({
       )}
       {!compact && (
         <div className={classes.label}>
-          <strong>
-            Book app 
-          </strong>
+          <strong>Book app</strong>
         </div>
       )}
       {compact && (
         <div className={classes.labelCompactContainer}>
           <div className={classes.labelCompactMain}>
-            <strong>
-              The Game
-            </strong>
-          </div>
-          <div className={classes.labelCompactSub}>
-            Lands of Derelict
+            <strong>Book app</strong>
           </div>
         </div>
       )}

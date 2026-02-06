@@ -13,5 +13,6 @@
     "error.validation": "Validation error",
     "error.validation.field.required": "Required field",
     "error.validation.number.positive": "The number can't be negative",
-    "error.validation.number.outOfRange": "The number must be in the range from {min} to {max} inclusive."
+    "error.validation.number.outOfRange": "The number must be in the range from {min} to {max} inclusive.",
+    "signOut.success": "Successfully sign out"
 }

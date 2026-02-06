@@ -103,7 +103,7 @@ export default function ReviewSection({ bookId }) {
     return true;
   };
 
-  const handleCreateReviewButtonClick = useSecuredCallback(() => {
+  const handleCreateReviewButtonClick = useSecuredCallback(async () => {
     const review = {
       bookId,
       author: `${userFirstName} ${userLastName}`,
@@ -111,7 +111,8 @@ export default function ReviewSection({ bookId }) {
       content: reviewInput,
     };
     if (validateReview(review)) {
-      dispatch(reviewActions.createReview(review));
+      await dispatch(reviewActions.createReview(review));
+      dispatch(actionsReviews.fetchReviewsPage(filter));
     }
   });
 

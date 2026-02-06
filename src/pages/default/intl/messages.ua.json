@@ -25,5 +25,6 @@
     "page.list.pagination.showMore.title": "Показати більше",
     "page.list.filter.searchInput.label": "Пошук",
     "signIn.success": "Вхід здійснено успішно",
-    "signIn.fail": "Не вдалося ввійти"
+    "signIn.fail": "Не вдалося ввійти",
+    "signOut.success": "Вихід здійснено успішно"
 }
