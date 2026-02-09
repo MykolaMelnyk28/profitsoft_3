@@ -34,6 +34,7 @@ const TextField = ({
   value,
   InputProps,
   inputProps,
+  fullWidth,
   name,
 }) => {
   const { theme } = useTheme();
@@ -52,7 +53,7 @@ const TextField = ({
       autoFocus={autoFocus}
       disabled={disabled}
       error={isError}
-      fullWidth
+      fullWidth={fullWidth}
       helperText={helperText}
       InputProps={{
         ...InputProps,

@@ -9,6 +9,7 @@
     "bookForm.fields.genres.label": "Жанри",
     "bookForm.fields.yearPublished.label": "Рік публікації",
     "bookForm.fields.pages.label": "Сторінки",
+    "page.list.createItem.sucessMessage": "Успішно створено",
     "page.list.updateItem.sucessMessage": "Успішно оновлено",
     "page.list.empty": "Список порожній",
     "error.validation.book.duplicateTitleAuthor": "Книга з переданими назвою і автором вже існує. Ведіть іншу назву або змініть автора.",
@@ -18,5 +19,6 @@
     "error.validation.number.outOfRange": "Число повинно бути в діапазоні від {min} до {max} включно.",
     "page.book.details.reviews.title": "Відгуки",
     "page.book.details.reviews.createButton.title": "Створити відгук",
-    "page.book.details.reviews.textfield.helperText": "Напишіть відгук"
+    "page.book.details.reviews.textfield.helperText": "Напишіть відгук",
+    "signOut.success": "Вихід здійснено успішно"
 }

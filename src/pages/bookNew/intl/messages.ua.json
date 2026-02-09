@@ -13,5 +13,6 @@
     "error.validation": "Помилка валідації",
     "error.validation.field.required": "Обов'язкове поле",
     "error.validation.number.positive": "Число не може бути негативним",
-    "error.validation.number.outOfRange": "Число повинно бути в діапазоні від {min} до {max} включно."
+    "error.validation.number.outOfRange": "Число повинно бути в діапазоні від {min} до {max} включно.",
+    "signOut.success": "Вихід здійснено успішно"
 }

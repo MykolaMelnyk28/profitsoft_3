@@ -25,5 +25,6 @@
     "page.list.pagination.showMore.title": "Show more",
     "page.list.filter.searchInput.label": "Search",
     "signIn.success": "Login successful",
-    "signIn.fail": "Login failed"
+    "signIn.fail": "Login failed",
+    "signOut.success": "Successfully sign out"
 }

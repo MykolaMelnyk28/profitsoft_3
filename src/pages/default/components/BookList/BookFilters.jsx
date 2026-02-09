@@ -12,6 +12,8 @@ import actionsAuthors from 'app/actions/authors';
 import TextField from 'components/TextField';
 import { useIntl } from "react-intl";
 import useLocationSearch from "misc/hooks/useLocationSearch";
+import Grid from "components/Grid/Grid";
+import Box from "components/Box";
 
 function BookFilters({
     filter: filterFromProps,
@@ -102,7 +104,10 @@ function BookFilters({
     };
 
     return (
-        <Stack spacing={2}>
+        <Box
+            display="flex"
+            flexDirection="column"
+        >
             <TextField
                 value={query}
                 onChange={e => setQuery(e.target.value)}
@@ -110,35 +115,46 @@ function BookFilters({
                 size="medium"
             />
 
-            <Stack direction="row" flexWrap="wrap" spacing={2}>
-                <Stack flex={1} spacing={1}>
+            <Grid container spacing={2}>
+                <Grid item xs={12} md={3}>
+                    <Box 
+                        display="flex"
+                        flexDirection="column"
+                        gap={1}
+                    >
                     <SelectOptions
-                        defaultValue={defaultAuthorSelectValue}
-                        label={formatMessage({ id: 'page.list.filter.authors.label' })}
-                        loading={isAuthorsLoading}
-                        items={authors}
-                        onSelect={ids => updateField('authorIds', ids)}
-                        fetchOptions={fetchAuthors}
-                        getOptionLabel={o => `${o.firstName} ${o.lastName}`}
-                        getOptionKey={o => o.id}
-                        isOptionEqualToValue={(o, v) => o.id === v.id}
-                        size="small"
+                      fullWidth
+                      defaultValue={defaultAuthorSelectValue}
+                      label={formatMessage({ id: 'page.list.filter.authors.label' })}
+                      loading={isAuthorsLoading}
+                      items={authors}
+                      onSelect={ids => updateField('authorIds', ids)}
+                      fetchOptions={fetchAuthors}
+                      getOptionLabel={o => `${o.firstName} ${o.lastName}`}
+                      getOptionKey={o => o.id}
+                      isOptionEqualToValue={(o, v) => o.id === v.id}
+                      size="small"
                     />
-                    <SelectOptions
-                        defaultValue={defaultGenreSelectValue}
-                        label={formatMessage({ id: 'page.list.filter.genres.label' })}
-                        loading={isGenresLoading}
-                        items={genres}
-                        onSelect={ids => updateField('genreIds', ids)}
-                        fetchOptions={fetchGenres}
-                        getOptionLabel={o => o.name}
-                        getOptionKey={o => o.id}
-                        isOptionEqualToValue={(o, v) => o.id === v.id}
-                        size="small"
-                    />
-                </Stack>
 
-                <RangeInput
+                    <SelectOptions
+                      fullWidth
+                      defaultValue={defaultGenreSelectValue}
+                      label={formatMessage({ id: 'page.list.filter.genres.label' })}
+                      loading={isGenresLoading}
+                      items={genres}
+                      onSelect={ids => updateField('genreIds', ids)}
+                      fetchOptions={fetchGenres}
+                      getOptionLabel={o => o.name}
+                      getOptionKey={o => o.id}
+                      isOptionEqualToValue={(o, v) => o.id === v.id}
+                      size="small"
+                    />
+                  </Box>
+                </Grid>
+
+                <Grid item xs={12} md={3}>
+                  <RangeInput
+                    fullWidth
                     defaultMinValue={filter?.minYearPublished ?? ''}
                     defaultMaxValue={filter?.maxYearPublished ?? ''}
                     min={1450}
@@ -147,9 +163,12 @@ function BookFilters({
                     maxLabel={formatMessage({ id: 'page.list.filter.yearPublishedRange.maxLabel' })}
                     onMinChange={value => updateField('minYearPublished', value)}
                     onMaxChange={value => updateField('maxYearPublished', value)}
-                />
+                  />
+                </Grid>
 
-                <RangeInput
+                <Grid item xs={12} md={3}>
+                  <RangeInput
+                    fullWidth
                     defaultMinValue={filter?.minPages ?? ''}
                     defaultMaxValue={filter?.maxPages ?? ''}
                     min={0}
@@ -158,10 +177,16 @@ function BookFilters({
                     maxLabel={formatMessage({ id: 'page.list.filter.pagesRange.maxLabel' })}
                     onMinChange={value => updateField('minPages', value)}
                     onMaxChange={value => updateField('maxPages', value)}
-                />
-            </Stack>
+                  />
+                </Grid>
+            </Grid>
 
-            <Stack direction="row" justifyContent="space-between" spacing={1}>
+            <Box 
+                display="flex" 
+                flexDirection="row" 
+                justifyContent="space-between"
+                gap={1}
+            >
                 <SelectSort
                     defaultValue={filter?.sort ?? sortOptions[0].value}
                     onSelect={value => updateField('sort', value)}
@@ -176,8 +201,8 @@ function BookFilters({
                         {formatMessage({ id: 'page.list.filter.applyButton.title' })}
                     </Button>
                 </Stack>
-            </Stack>
-        </Stack>
+            </Box>
+        </Box>
     );
 }
 

@@ -36,6 +36,14 @@ export default function ReviewSection({ bookId }) {
     size: String(PAGE_SIZE),
   });
 
+  useEffect(() => {
+    setSearchParams(prev => {
+      searchParams.set('page', '0');
+      searchParams.set('size', String(PAGE_SIZE));
+      return prev;
+    });
+  }, []);
+
   const filter = useMemo(() => {
     const getInt = (key) => {
       const value = searchParams.get(key);
@@ -103,7 +111,7 @@ export default function ReviewSection({ bookId }) {
     return true;
   };
 
-  const handleCreateReviewButtonClick = useSecuredCallback(() => {
+  const handleCreateReviewButtonClick = useSecuredCallback(async () => {
     const review = {
       bookId,
       author: `${userFirstName} ${userLastName}`,
@@ -111,7 +119,8 @@ export default function ReviewSection({ bookId }) {
       content: reviewInput,
     };
     if (validateReview(review)) {
-      dispatch(reviewActions.createReview(review));
+      await dispatch(reviewActions.createReview(review));
+      dispatch(actionsReviews.fetchReviewsPage(filter));
     }
   });
 

@@ -1,4 +1,3 @@
-import FormControl from "components/FormControl";
 import { useDebounce } from "@uidotdev/usehooks";
 import Autocomplete from "components/Autocomplete";
 import { useEffect, useMemo, useState } from "react";
@@ -19,6 +18,7 @@ function SelectOptions({
     isError = false,
     helperText,
     name,
+    fullWidth,
 }) {
     const [page, setPage] = useState(0);
     const [search, setSearch] = useState('');
@@ -88,8 +88,7 @@ function SelectOptions({
     };
 
     return (
-        <FormControl size={size}>
-            <Autocomplete
+        <Autocomplete
                 required={required}
                 multiple={multiple}
                 options={options}
@@ -115,8 +114,8 @@ function SelectOptions({
                 isError={isError}
                 helperText={helperText}
                 name={name}
+                fullWidth={fullWidth}
             />
-        </FormControl>
     );
 }
 
