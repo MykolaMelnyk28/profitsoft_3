@@ -1,5 +1,4 @@
-import FormControl from "components/FormControl";
-import Stack from "components/Stack";
+import Box from "components/Box";
 import TextField from "components/TextField";
 import { useEffect, useState } from "react";
 
@@ -12,6 +11,7 @@ function RangeInput({
     maxLabel,
     onMinChange,
     onMaxChange,
+    fullWidth,
 }) {
     const [minLocal, setMinLocal] = useState(defaultMinValue ?? '');
     const [maxLocal, setMaxLocal] = useState(defaultMaxValue ?? '');
@@ -37,24 +37,29 @@ function RangeInput({
     };
 
     return (
-        <FormControl size="small">
-            <Stack spacing={1}>
-                <TextField
-                    type="number"
-                    value={minLocal}
-                    onChange={handleMinChange}
-                    label={minLabel}
-                    InputProps={{ inputProps: { min, max } }}
-                />
-                <TextField
-                    type="number"
-                    value={maxLocal}
-                    onChange={handleMaxChange}
-                    label={maxLabel}
-                    InputProps={{ inputProps: { min, max } }}
-                />
-            </Stack>
-        </FormControl>
+        <Box 
+            display="flex"
+            flexDirection="column"
+            gap={1}
+            fullWidth={fullWidth}
+        >
+            <TextField
+                fullWidth={fullWidth}
+                type="number"
+                value={minLocal}
+                onChange={handleMinChange}
+                label={minLabel}
+                InputProps={{ inputProps: { min, max } }}
+            />
+            <TextField
+                fullWidth={fullWidth}
+                type="number"
+                value={maxLocal}
+                onChange={handleMaxChange}
+                label={maxLabel}
+                InputProps={{ inputProps: { min, max } }}
+            />
+        </Box>
     );
 }
 

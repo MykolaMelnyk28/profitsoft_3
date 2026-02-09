@@ -36,6 +36,14 @@ export default function ReviewSection({ bookId }) {
     size: String(PAGE_SIZE),
   });
 
+  useEffect(() => {
+    setSearchParams(prev => {
+      searchParams.set('page', '0');
+      searchParams.set('size', String(PAGE_SIZE));
+      return prev;
+    });
+  }, []);
+
   const filter = useMemo(() => {
     const getInt = (key) => {
       const value = searchParams.get(key);
