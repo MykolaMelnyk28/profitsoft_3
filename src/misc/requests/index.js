@@ -1,18 +1,17 @@
 import axios from 'axios';
-import storage, { keys } from '../storage';
-
-// axios.interceptors.request.use((params) => {
-//   const token = storage.getItem(keys.TOKEN);
-//   if (token) {
-//     params.headers.setAuthorization(`Bearer ${token}`);
-//   }
-//   return params;
-// });
 
 const api = axios.create({
   withCredentials: true,
   xsrfCookieName: "XSRF-TOKEN",
   xsrfHeaderName: "X-XSRF-TOKEN"
+});
+
+api.interceptors.request.use(config => {
+  const match = document.cookie.match(/XSRF-TOKEN=([^;]+)/);
+  if (match) {
+    config.headers['X-XSRF-TOKEN'] = decodeURIComponent(match[1]);
+  }
+  return config;
 });
 
 
